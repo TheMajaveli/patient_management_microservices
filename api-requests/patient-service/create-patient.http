@@ -1,0 +1,14 @@
+### POST request to create patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Coe with Kafka",
+  "email": "kafka_test1@example.com",
+  "address": "123 main street22",
+  "phone": "0201111100",
+  "dateOfBirth": "1994-03-02",
+  "registeredDate": "2024-11-29"
+}
+
+###
